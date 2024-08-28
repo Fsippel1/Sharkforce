@@ -16,3 +16,8 @@ class Header
 };
 
 respawnOnStart = -1;
+disabledAI = 1;
+
+class DifficultyOverride {
+	autospot = 0;
+};
