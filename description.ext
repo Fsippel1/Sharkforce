@@ -1,0 +1,18 @@
+#include "configs\CfgSharkForce.hpp"
+
+author = "Schnupfie der Schneemann";
+onLoadName = "Sharkforce";
+onLoadMission = "Sharkforce";
+//loadScreen = "assets\pictures\intro.paa"; //format 1024x512
+onLoadIntro = "Sharkforce";
+briefingName = "Sharkforce";
+//overviewPicture = "assets\pictures\overview.paa"; //format 1024x512
+
+class Header
+{
+	gameType = "Coop";
+	minPlayers =  2;
+	maxPlayers = 16;
+};
+
+respawnOnStart = -1;
