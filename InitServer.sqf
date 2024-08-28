@@ -1,2 +1,4 @@
-player enableStamina false;
-player enableFatigue false;
+//Deactivates Combat with CSAT and NATO
+{
+	_x setCombatMode "BLUE";
+} forEach allGroups;
