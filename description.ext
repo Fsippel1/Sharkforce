@@ -1,3 +1,7 @@
+#include "configs\ui\garageMenu\CfgGarageMenuDefines.hpp"
+#include "configs\ui\garageMenu\CfgGarageMenuControls.hpp"
+#include "configs\ui\garageMenu\CfgGarage.hpp"
+#include "configs\CfgSectors.hpp"
 #include "configs\CfgSharkForce.hpp"
 
 author = "Schnupfie der Schneemann";
@@ -12,7 +16,7 @@ class Header
 {
 	gameType = "Coop";
 	minPlayers =  2;
-	maxPlayers = 16;
+	maxPlayers = 8;
 };
 
 respawnOnStart = -1;

@@ -1,6 +1,7 @@
 player enableStamina false;
 player enableFatigue false;
 
+//TODO umbauen auf custom event
 onEachFrame { 
 	switch (cursorTarget) do {
 		case ar1;
