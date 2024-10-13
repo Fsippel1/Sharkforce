@@ -3,6 +3,8 @@
 #include "configs\ui\garageMenu\CfgGarage.hpp"
 #include "configs\CfgSectors.hpp"
 #include "configs\CfgSharkForce.hpp"
+#include "configs\CfgCustomEvents.hpp"
+#include "configs\CfgNotifications.hpp"
 
 author = "Schnupfie der Schneemann";
 onLoadName = "Sharkforce";
