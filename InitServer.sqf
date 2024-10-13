@@ -31,6 +31,22 @@ resistance setFriend [east, 1];
 	}
 ] execVM "scripts\events\createCustomEvent.sqf";
 
+// Frontline
+[
+	[
+		[[10438.196, -138.588], [10400, 100], 0]
+	],
+	"A3_Front_Line_Markers_South_Names"
+] execVM "scripts\frontLine\drawFrontline.sqf";
+[
+	[
+		[[15308.405, 15050.29], [5385.602, 100], 270],
+		[[16579.213, 8586.557], [1746.271, 100], 41.061],
+		[[19276.57, 7466.03], [1442.91, 100], 0]
+	],
+	"A3_Front_Line_Markers_East_Names"
+] execVM "scripts\frontLine\drawFrontline.sqf";
+
 // Create Initial Sectors
 _sectors = getArray(missionConfigFile >> "CfgSectors" >> "initialSectors");
 {
